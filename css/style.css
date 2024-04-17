@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ImagenPrincipal {
+    width: 100%;
+}
+
+.DivBarraPadre {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 100px;
+    position: relative;
+    margin-left: 15%;
+    margin-top: -700px;
+
+}
+
+.DivBarraIzquierda {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+
+}
+
+.DivBarraIzquierda img {
+    height: 80px;
+    width: 160px;
+}
+
+.DivBarraDerecha {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 13px;
+    color: black;
+}
+
+.CuadroInformacion {
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    width: 440px;
+    height: 280px;
+    margin-top: 6%;
+    margin-left: 16%;
+}
+
+.CuadroInformacion span {
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: 14px;
+    font-size: 20px;
+}
+
+.CuadroInformacion button {
+    background-color: #9fd133;
+    padding: 15px;
+    color: white;
+    border: none;
+}
+
+.LUGARES {
+    display: flex;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 14%;
+    gap: 20px;
+}
+
+.LUGARES img {
+    height: 260px;
+    width: 220px;
+}
+
+.TituloP {
+    display: flex;
+    background-color: #9fd133;
+    color: white;
+    height: 50px;
+    width: 220px;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.ButtonBuy {
+    background-color: #9fd133;
+    color: white;
+    padding: 8%;
+    width: 220px;
+    border: none;
+    justify-content: center;
+
+
+}
+
+.BarrasInferiores{
+    display: block;
+    margin-top: 90%;
+}
+
+.BarrasInferiores img {
+    width: 100%;
+    justify-content: center;
+
+
+}
